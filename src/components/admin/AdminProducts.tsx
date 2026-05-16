@@ -30,20 +30,6 @@ function AdminProducts() {
     categoryId: "",
   });
 
-  // const fetchProducts = async () => {
-  //   try {
-  //     const response = await api.get("/products");
-
-  //     setProducts(response.data.products);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchProducts();
-  // }, []);
-
   const fetchProducts = async () => {
     try {
       const response = await api.get("/products");
